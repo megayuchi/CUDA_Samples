@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CPU">
+      <UniqueIdentifier>{f9a76fdc-20cf-404d-9b9e-6310880cfeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typedef">
+      <UniqueIdentifier>{c9bbc23d-c669-43f1-9dd6-4946dd9f10bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Entry">
+      <UniqueIdentifier>{b74475b8-d828-4130-8ebd-3ace9b91c9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{892a5257-db37-4190-b2e6-db581dcc32d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>typedef</Filter>
+    </ClInclude>
+    <ClInclude Include="cuda_search.h">
+      <Filter>CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_Search.h">
+      <Filter>CPU</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDA_SelectValue.cpp">
+      <Filter>Main Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_Search.cpp">
+      <Filter>CPU</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CUDA_SelectValue.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="cuda_search.cu">
+      <Filter>CUDA</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
