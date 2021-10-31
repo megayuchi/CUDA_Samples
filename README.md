@@ -1,6 +1,8 @@
 # CUDA_Samples
 
-These are sample source codes explained in megayuchi's programming course. 
+These are sample source codes explained in megayuchi's programming course.
+
+https://www.youtube.com/watch?v=gSgZNdT9414&t=242s
 
 ## [Requirements] 
 1. Windows 10 build 19041 or later 
