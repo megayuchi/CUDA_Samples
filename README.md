@@ -12,9 +12,9 @@ These are sample source codes explained in megayuchi's programming course.
 1. cudaTransformFloat4 - Multiply the 4x4 matrix by about 100 million points. 
 2. CUDA_SelectValue - Find the maximum of each set of numbers.
     Compare the following three cases.
-    1.CPU single thread
-    2.CUDA - don't using shared memory,
-    3.CUDA - using shared memory 
+    1. CPU single thread
+    2. CUDA - don't using shared memory
+    3. CUDA - using shared memory 
 
 --------------------------------------------------------------------------------
 
